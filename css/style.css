@@ -1,0 +1,221 @@
+body {
+    background-color:gainsboro;
+    display: flex;
+    flex-direction: column;
+    margin: 0px;
+    padding: 0px;
+    width: 100vw;
+}
+
+a {
+    color: bisque;
+    text-decoration: none;
+}
+
+.header {
+    color:bisque;
+    background-color: #1f2937;
+    padding-bottom: 100px;
+}
+
+.top-header {
+    display: flex;
+    flex-direction: row;
+    margin: 0px;
+    justify-content: space-around;
+    align-items: center;
+    gap: 10px;
+}
+
+#headlogo {
+    font-weight: 900;
+    font-size: larger;
+}
+
+.header-link{
+    display: flex;
+    gap: 20px;
+}
+
+.biggie {
+    height: 500px;
+    width: auto;
+}
+
+.big-picture {
+    display: flex;
+    justify-content: space-evenly;
+    align-self: space-around;
+    margin: 0px;
+}
+.recruitment {
+    display: flex;
+    flex: 0 0 30%;
+}
+
+.button.start {
+    display: flex;
+    align-items: center;
+    justify-items: center;
+    margin: 0px;
+    height: 30px;
+    width: fit-content;
+    background-color: #3882F6;
+    padding: 10px 20px;
+    border: 0px;
+    border-radius: 10px;
+    color: cornsilk;
+    font-weight: 900;
+}
+
+.column {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
+    flex: 0 0 20%;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.text {
+    margin: 0px;
+    padding: 0px;
+    font-weight:1000;
+    font-size: 50px;
+    
+}
+
+
+.four-pictures {
+    display: flex;
+    flex-wrap: wrap;
+    background-color:gainsboro;
+    margin: 0px;
+    padding: 30px;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.cooltitle{
+    display: flex;
+    font-size: xx-large;
+    font-weight: bolder; 
+    align-self: center;
+}
+
+.pic {
+    display: flex;
+    min-height: 250px;
+    min-width: 250px;
+    max-height: 250px;
+    max-width: 250px;
+    flex-direction: column;
+    flex: 0 0 auto;
+    justify-content: space-between;
+}
+
+.pics {
+    max-height: 220px;
+    max-width: 300px;
+    margin: 0px;
+    padding: 0px;
+    border: 5px solid blue;
+    border-radius: 5px;
+}
+
+
+.card {
+    display: flex;
+    color: #1f2937;
+    justify-content: space-evenly;
+}
+
+.quote {
+    display: flex;
+    background-color: #e5e7eb;
+    padding: auto;
+    justify-content: center;
+    padding: 3%; 
+}
+
+.longquote{
+    display: flex;
+    align-self: center;
+    flex: 1 1 auto;
+    max-width: 50%;
+    flex-direction: column;
+}
+
+#quote {
+    font-style: italic;
+    font-size: xx-large;
+}
+
+.said {
+    display: flex;
+    font-size: larger;
+    justify-content: flex-end;
+    font-style:none;
+}
+
+.box {
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    padding: 3%;
+}
+
+.action {
+    display: flex;
+    background-color: #3882F6;
+    border-radius: 15px;
+    margin: 0px;
+    padding: 2% 9%;
+    gap: 300px;
+}
+.call {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    margin: 0px;
+    color: cornsilk;
+}
+
+#call {
+    font-size: x-large;
+    margin: 0px;
+    padding: 0px;
+}
+
+.button.end {
+    display: flex;
+    align-items: center;
+    justify-items: center;
+    margin: 0px;
+    height: 30px;
+    width: fit-content;
+    background-color: #3882F6;
+    padding: 10px 20px;
+    border: 2% solid cornsilk ;
+    border-radius: 10px;
+    color: cornsilk;
+    font-weight: 900;
+    justify-self: center;
+    align-self: center;
+    font-size: large;
+}
+
+
+
+.footer {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    color:bisque;
+    background-color: #1f2937;
+    flex: 1 1 auto;
+    margin: 0px;
+    padding: 2%;
+
+}
